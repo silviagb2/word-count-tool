@@ -5,5 +5,6 @@ $(document).ready(function(){
 
         var output = $("#output")
         output.text(str.length)
+        output.css({"font-size": "30px", "font-weight":"bold"});
       });
   });
